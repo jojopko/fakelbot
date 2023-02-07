@@ -1,0 +1,396 @@
+{
+    "group_id": 217991594,
+    "type": "wall_post_new",
+    "event_id": "bac8357aa13e7ebccef9eb700507ac3354dcc28e",
+    "v": "5.131",
+    "object": {
+        "id": 10,
+        "from_id": -217991594,
+        "owner_id": -217991594,
+        "date": 1674999017,
+        "marked_as_ads": 0,
+        "can_edit": 1,
+        "created_by": 361776391,
+        "can_delete": 1,
+        "donut": {
+            "is_donut": false
+        },
+        "comments": {
+            "count": 0
+        },
+        "short_text_rate": 0.8,
+        "compact_attachments_before_cut": 2,
+        "carousel_offset": 0,
+        "attachments": [
+            {
+                "type": "photo",
+                "photo": {
+                    "album_id": -7,
+                    "date": 1674999017,
+                    "id": 457239024,
+                    "owner_id": -217991594,
+                    "access_key": "639614e1627daa8bab",
+                    "sizes": [
+                        {
+                            "height": 75,
+                            "type": "m",
+                            "width": 130,
+                            "url": "https://sun9-2.userapi.com/impg/1O4MX1gXjD4GqpKvOFQZSp6IRWsXAGmTG2dblA/14EpLm48404.jpg?size=130x75&quality=96&sign=4d7ebbf211e02464a62b31422406d7e8&c_uniq_tag=-9kDEbdDJtBbf5sw0I9F5Sh40UXq7ZZxgmk2jCXx0uQ&type=album"
+                        },
+                        {
+                            "height": 87,
+                            "type": "o",
+                            "width": 130,
+                            "url": "https://sun9-2.userapi.com/impg/1O4MX1gXjD4GqpKvOFQZSp6IRWsXAGmTG2dblA/14EpLm48404.jpg?size=130x87&quality=96&crop=21,0,254,170&sign=dbe7cd429cecdb7098fb721ed60c80a1&c_uniq_tag=vlrsB5Wxmh2o0boDUnk-fC1ZsP5imx-rK477hiWKzyc&type=album"
+                        },
+                        {
+                            "height": 133,
+                            "type": "p",
+                            "width": 200,
+                            "url": "https://sun9-2.userapi.com/impg/1O4MX1gXjD4GqpKvOFQZSp6IRWsXAGmTG2dblA/14EpLm48404.jpg?size=200x133&quality=96&crop=20,0,256,170&sign=b7dcfed3f2677a96e0cd5e66beba471b&c_uniq_tag=uR3ZUsMsVdLbh_AhAtvrQIfuxR_N9CpFIeg2w5DRBG8&type=album"
+                        },
+                        {
+                            "height": 170,
+                            "type": "q",
+                            "width": 296,
+                            "url": "https://sun9-2.userapi.com/impg/1O4MX1gXjD4GqpKvOFQZSp6IRWsXAGmTG2dblA/14EpLm48404.jpg?size=296x170&quality=96&sign=1e936ad6e05f4c3d35e5557b60416d21&c_uniq_tag=PjSvzEGtRJAe69azmnCT6qNTbQvHYff1Gyn-EPKQe5I&type=album"
+                        },
+                        {
+                            "height": 170,
+                            "type": "r",
+                            "width": 296,
+                            "url": "https://sun9-2.userapi.com/impg/1O4MX1gXjD4GqpKvOFQZSp6IRWsXAGmTG2dblA/14EpLm48404.jpg?size=296x170&quality=96&sign=1e936ad6e05f4c3d35e5557b60416d21&c_uniq_tag=PjSvzEGtRJAe69azmnCT6qNTbQvHYff1Gyn-EPKQe5I&type=album"
+                        },
+                        {
+                            "height": 43,
+                            "type": "s",
+                            "width": 75,
+                            "url": "https://sun9-2.userapi.com/impg/1O4MX1gXjD4GqpKvOFQZSp6IRWsXAGmTG2dblA/14EpLm48404.jpg?size=75x43&quality=96&sign=e1e3e7392b2817883c69ed0dbfddee23&c_uniq_tag=9S7-_9TUPqKr66SeP1VZ2vMG9xGYuKXmUTrIOE57qGo&type=album"
+                        },
+                        {
+                            "height": 170,
+                            "type": "x",
+                            "width": 296,
+                            "url": "https://sun9-2.userapi.com/impg/1O4MX1gXjD4GqpKvOFQZSp6IRWsXAGmTG2dblA/14EpLm48404.jpg?size=296x170&quality=96&sign=1e936ad6e05f4c3d35e5557b60416d21&c_uniq_tag=PjSvzEGtRJAe69azmnCT6qNTbQvHYff1Gyn-EPKQe5I&type=album"
+                        }
+                    ],
+                    "text": "",
+                    "user_id": 100,
+                    "has_tags": false
+                },
+                "style": "full"
+            },
+            {
+                "type": "photo",
+                "photo": {
+                    "album_id": -7,
+                    "date": 1674999017,
+                    "id": 457239025,
+                    "owner_id": -217991594,
+                    "access_key": "8ca5f7f32498a9ae17",
+                    "sizes": [
+                        {
+                            "height": 130,
+                            "type": "m",
+                            "width": 94,
+                            "url": "https://sun9-8.userapi.com/impg/CQwTjWvXV8z3j5vQdgpgAQX6S08s8QLqpeCXjA/OYsaGHQItc4.jpg?size=94x130&quality=96&sign=877ec07e24b26fbd477de118480b8707&c_uniq_tag=hPkwrw2aGKrItN91VpXfhD9HDXpK-N8uo5c3rWkUsM0&type=album"
+                        },
+                        {
+                            "height": 180,
+                            "type": "o",
+                            "width": 130,
+                            "url": "https://sun9-8.userapi.com/impg/CQwTjWvXV8z3j5vQdgpgAQX6S08s8QLqpeCXjA/OYsaGHQItc4.jpg?size=130x180&quality=96&sign=643dff785bd10cdbe0201a16fd90c07f&c_uniq_tag=JuSdBJao8Ruu813t3MRqK5r16ZDFC8ynhVsDzG5SH2Q&type=album"
+                        },
+                        {
+                            "height": 276,
+                            "type": "p",
+                            "width": 200,
+                            "url": "https://sun9-8.userapi.com/impg/CQwTjWvXV8z3j5vQdgpgAQX6S08s8QLqpeCXjA/OYsaGHQItc4.jpg?size=200x276&quality=96&sign=3fd7a935503e6f05ac92445e523135b9&c_uniq_tag=NWto7GPyxh99Hj7c47ztqmGuWj-mCWif2ufyGmXvnLs&type=album"
+                        },
+                        {
+                            "height": 442,
+                            "type": "q",
+                            "width": 320,
+                            "url": "https://sun9-8.userapi.com/impg/CQwTjWvXV8z3j5vQdgpgAQX6S08s8QLqpeCXjA/OYsaGHQItc4.jpg?size=320x442&quality=96&sign=b65e06887349b87afdfb37b108f6a17e&c_uniq_tag=sZ6dGsDvoWuMngShYis5pbpxwDYxxzWMLbtndkj-Vzo&type=album"
+                        },
+                        {
+                            "height": 705,
+                            "type": "r",
+                            "width": 510,
+                            "url": "https://sun9-8.userapi.com/impg/CQwTjWvXV8z3j5vQdgpgAQX6S08s8QLqpeCXjA/OYsaGHQItc4.jpg?size=510x705&quality=96&sign=3d6759ba968beb9b0affeba7654046b0&c_uniq_tag=sKLKfwf4qeYdw9N7lpu39v7INtj7qFCwTyPf7J8jkA8&type=album"
+                        },
+                        {
+                            "height": 75,
+                            "type": "s",
+                            "width": 54,
+                            "url": "https://sun9-8.userapi.com/impg/CQwTjWvXV8z3j5vQdgpgAQX6S08s8QLqpeCXjA/OYsaGHQItc4.jpg?size=54x75&quality=96&sign=0de1148f59c2cc050eafc1f723ca8e82&c_uniq_tag=iKK6Y0z3dp0AielhKq-LKW-dGgR18oFpsHNHXx5SUug&type=album"
+                        },
+                        {
+                            "height": 604,
+                            "type": "x",
+                            "width": 437,
+                            "url": "https://sun9-8.userapi.com/impg/CQwTjWvXV8z3j5vQdgpgAQX6S08s8QLqpeCXjA/OYsaGHQItc4.jpg?size=437x604&quality=96&sign=d00d6dcf847fb4fd69fa8ae06c69f983&c_uniq_tag=bhP5KsVfSlMgx6cQeYBmCOFd2Td5QaJ8XDx4qbVjlCE&type=album"
+                        },
+                        {
+                            "height": 807,
+                            "type": "y",
+                            "width": 584,
+                            "url": "https://sun9-8.userapi.com/impg/CQwTjWvXV8z3j5vQdgpgAQX6S08s8QLqpeCXjA/OYsaGHQItc4.jpg?size=584x807&quality=96&sign=054d0cc6219a28e5e9e1a2861342f52b&c_uniq_tag=y0LB3h6_7TgaxQRKvy4RPIZWx7zIchKxj4CCVvuJEKY&type=album"
+                        },
+                        {
+                            "height": 1024,
+                            "type": "z",
+                            "width": 741,
+                            "url": "https://sun9-8.userapi.com/impg/CQwTjWvXV8z3j5vQdgpgAQX6S08s8QLqpeCXjA/OYsaGHQItc4.jpg?size=741x1024&quality=96&sign=ed1319ccfcab1800e74eae464b2313b4&c_uniq_tag=l7qLCztvt143fxIvNrq5YBCp8H4cOZt-qTn103BJerU&type=album"
+                        }
+                    ],
+                    "text": "",
+                    "user_id": 100,
+                    "has_tags": false
+                },
+                "style": "full"
+            },
+            {
+                "type": "video",
+                "video": {
+                    "access_key": "cf8152458e208c31e7",
+                    "can_comment": 1,
+                    "can_like": 1,
+                    "can_repost": 1,
+                    "can_subscribe": 1,
+                    "can_add_to_faves": 1,
+                    "can_add": 1,
+                    "comments": 5,
+                    "date": 1638728201,
+                    "description": "обидно;(",
+                    "duration": 7,
+                    "image": [
+                        {
+                            "url": "https://i.mycdn.me/getVideoPreview?id=1932366907987&idx=9&type=39&tkn=uSHzuET5EJggCBo6cB4aNOlfTGU&fn=vid_s",
+                            "width": 130,
+                            "height": 96,
+                            "with_padding": 1
+                        },
+                        {
+                            "url": "https://i.mycdn.me/getVideoPreview?id=1932366907987&idx=9&type=39&tkn=uSHzuET5EJggCBo6cB4aNOlfTGU&fn=vid_m",
+                            "width": 160,
+                            "height": 120,
+                            "with_padding": 1
+                        },
+                        {
+                            "url": "https://i.mycdn.me/getVideoPreview?id=1932366907987&idx=9&type=39&tkn=uSHzuET5EJggCBo6cB4aNOlfTGU&fn=vid_l",
+                            "width": 320,
+                            "height": 240,
+                            "with_padding": 1
+                        },
+                        {
+                            "url": "https://i.mycdn.me/getVideoPreview?id=1932366907987&idx=9&type=39&tkn=uSHzuET5EJggCBo6cB4aNOlfTGU&fn=vid_x",
+                            "width": 800,
+                            "height": 450,
+                            "with_padding": 1
+                        },
+                        {
+                            "url": "https://i.mycdn.me/getVideoPreview?id=1932366907987&idx=9&type=39&tkn=uSHzuET5EJggCBo6cB4aNOlfTGU&fn=vid_w",
+                            "width": 1280,
+                            "height": 709
+                        },
+                        {
+                            "url": "https://i.mycdn.me/getVideoPreview?id=1932366907987&idx=9&type=39&tkn=uSHzuET5EJggCBo6cB4aNOlfTGU&fn=vid_t",
+                            "width": 320,
+                            "height": 177
+                        },
+                        {
+                            "url": "https://i.mycdn.me/getVideoPreview?id=1932366907987&idx=9&type=39&tkn=uSHzuET5EJggCBo6cB4aNOlfTGU&fn=vid_u",
+                            "width": 720,
+                            "height": 399
+                        }
+                    ],
+                    "first_frame": [
+                        {
+                            "url": "https://i.mycdn.me/getVideoPreview?id=1932366907987&idx=0&type=39&tkn=WQLbcg8ofSc6NeTY_e_n871qcSY&fn=vid_f",
+                            "width": 720,
+                            "height": 399
+                        },
+                        {
+                            "url": "https://i.mycdn.me/getVideoPreview?id=1932366907987&idx=0&type=39&tkn=WQLbcg8ofSc6NeTY_e_n871qcSY&fn=vid_md",
+                            "width": 480,
+                            "height": 266
+                        },
+                        {
+                            "url": "https://i.mycdn.me/getVideoPreview?id=1932366907987&idx=0&type=39&tkn=WQLbcg8ofSc6NeTY_e_n871qcSY&fn=vid_d",
+                            "width": 240,
+                            "height": 133
+                        },
+                        {
+                            "url": "https://i.mycdn.me/getVideoPreview?id=1932366907987&idx=0&type=39&tkn=WQLbcg8ofSc6NeTY_e_n871qcSY&fn=vid_sm",
+                            "width": 128,
+                            "height": 71
+                        },
+                        {
+                            "url": "https://i.mycdn.me/getVideoPreview?id=1932366907987&idx=0&type=39&tkn=WQLbcg8ofSc6NeTY_e_n871qcSY&fn=vid_w",
+                            "width": 1280,
+                            "height": 709
+                        }
+                    ],
+                    "width": 426,
+                    "height": 236,
+                    "id": 456241363,
+                    "owner_id": 265199187,
+                    "title": "свиньи буллят гоблина",
+                    "is_favorite": false,
+                    "track_code": "video_1927bbd9oSRLhtKtsOHZfY5rJecX1zrYZkQGyh5okEmGNy2-YMqQBk6J3q284dwaiAQR0iHlDulVcjXNawb7J-lAQ74",
+                    "type": "video",
+                    "views": 35041
+                },
+                "style": "full"
+            },
+            {
+                "type": "video",
+                "video": {
+                    "access_key": "5c4b2c02061a3bab44",
+                    "can_comment": 1,
+                    "can_like": 1,
+                    "can_repost": 1,
+                    "can_subscribe": 1,
+                    "can_add_to_faves": 1,
+                    "can_add": 1,
+                    "comments": 0,
+                    "date": 1657670762,
+                    "description": "поддержать канал:https://www.donationalerts.com/r/danil_5745",
+                    "duration": 100,
+                    "image": [
+                        {
+                            "url": "https://sun1.megafon-nn.userapi.com/cX2ERtOu8XqK6SqVFg26zN5tRZ6jh2_E2KKLaw/d2HpwZZm91Q.jpg",
+                            "width": 130,
+                            "height": 96,
+                            "with_padding": 1
+                        },
+                        {
+                            "url": "https://sun1.megafon-nn.userapi.com/QiChZLLHf9TfyIZ41GN1Qvrq4WZpVYLVaOW9uA/MrPC7vd7fFI.jpg",
+                            "width": 160,
+                            "height": 120,
+                            "with_padding": 1
+                        },
+                        {
+                            "url": "https://sun1.megafon-nn.userapi.com/_iqct_ThgYnFUNfWEryB23xmchPPNh-NokuZWw/XQBmBj6QFr0.jpg",
+                            "width": 320,
+                            "height": 240,
+                            "with_padding": 1
+                        },
+                        {
+                            "url": "https://sun1.megafon-nn.userapi.com/FWqs8uRxBDjxlMpO1_IOg301RErGOVEimSJciQ/ojYNjNONh0c.jpg",
+                            "width": 800,
+                            "height": 450,
+                            "with_padding": 1
+                        }
+                    ],
+                    "id": 456239682,
+                    "owner_id": 250779216,
+                    "title": "дорогой где ты был, но завокоден на мелодию Гимн России",
+                    "is_favorite": false,
+                    "track_code": "video_355657cft5YAdh6WCYtxbdhjucfVATDoG5U2fs0cKSedGNZeYCCGtAV6F5ALi3cD3wyN8uMzA9EtrQR5uHJCSfJvuF4",
+                    "type": "video",
+                    "views": 4,
+                    "local_views": 4,
+                    "platform": "YouTube"
+                },
+                "style": "full"
+            },
+            {
+                "type": "audio",
+                "audio": {
+                    "artist": "Sabaton",
+                    "id": 456244904,
+                    "owner_id": 2000503841,
+                    "title": "Panzerkampf",
+                    "duration": 25,
+                    "is_explicit": false,
+                    "is_focus_track": false,
+                    "track_code": "fd82e00dyYNC42SjBfLxr58ceXSvmtUVfvqy_jdlcBmWmXKe9ZJbjiOXEMJmmqetkBRwEsvZgkDoS352BfS5gH6ocg",
+                    "url": "https://vk.com/mp3/audio_api_unavailable.mp3",
+                    "date": 1674999017,
+                    "main_artists": [
+                        {
+                            "name": "Sabaton",
+                            "domain": "5281726592574947971",
+                            "id": "5281726592574947971",
+                            "is_followed": false,
+                            "can_follow": false
+                        }
+                    ],
+                    "short_videos_allowed": false,
+                    "stories_allowed": false,
+                    "stories_cover_allowed": false
+                },
+                "style": "compact",
+                "compact": {
+                    "icons": [
+                        {
+                            "name": "song_outline"
+                        }
+                    ],
+                    "title": {
+                        "text": {
+                            "text": "Panzerkampf"
+                        }
+                    },
+                    "description": {
+                        "text": {
+                            "text": "Sabaton"
+                        }
+                    }
+                }
+            },
+            {
+                "type": "audio",
+                "audio": {
+                    "artist": "Rammstein",
+                    "id": 456244422,
+                    "owner_id": 2000457218,
+                    "title": "Sonne",
+                    "duration": 25,
+                    "is_explicit": false,
+                    "is_focus_track": false,
+                    "track_code": "ae8fcfafUd1W06eBMf28D3jE8rrEzh0wrao7S8WMfwFE3CqvzHPD0Den0-BSleoNd8z73KCNSmUYD_DD93OymKztKg",
+                    "url": "https://vk.com/mp3/audio_api_unavailable.mp3",
+                    "date": 1674999017,
+                    "main_artists": [
+                        {
+                            "name": "Rammstein",
+                            "domain": "3401943434089875407",
+                            "id": "3401943434089875407",
+                            "is_followed": false,
+                            "can_follow": false
+                        }
+                    ],
+                    "short_videos_allowed": false,
+                    "stories_allowed": false,
+                    "stories_cover_allowed": false
+                },
+                "style": "compact",
+                "compact": {
+                    "icons": [
+                        {
+                            "name": "song_outline"
+                        }
+                    ],
+                    "title": {
+                        "text": {
+                            "text": "Sonne"
+                        }
+                    },
+                    "description": {
+                        "text": {
+                            "text": "Rammstein"
+                        }
+                    }
+                }
+            }
+        ],
+        "is_favorite": false,
+        "post_type": "post",
+        "text": "Разнообразный и богатый опыт постоянный количественный рост и сфера нашей активности играет важную роль в формировании экономической целесообразности принимаемых решений! Не следует, однако, забывать о том, что выбранный нами инновационный путь напрямую зависит от системы обучения кадров, соответствующей насущным потребностям. Таким образом, дальнейшее развитие различных форм деятельности влечет за собой процесс внедрения и модернизации системы масштабного изменения ряда параметров.\n\nНе следует, однако, забывать о том, что повышение уровня гражданского сознания играет важную роль в формировании системы обучения кадров, соответствующей насущным потребностям! Задача организации, в особенности же дальнейшее развитие различных форм деятельности требует от нас анализа экономической целесообразности принимаемых решений? С другой стороны выбранный нами инновационный путь требует от нас анализа системы масштабного изменения ряда параметров? С другой стороны начало повседневной работы по формированию позиции обеспечивает актуальность ключевых компонентов планируемого обновления!\n\nС другой стороны консультация с профессионалами из IT влечет за собой процесс внедрения и модернизации существующих финансовых и административных условий.\n\nСоображения высшего порядка, а также реализация намеченного плана развития способствует повышению актуальности форм воздействия? Равным образом дальнейшее развитие различных форм деятельности представляет собой интересный эксперимент проверки ключевых компонентов планируемого обновления. Повседневная...",
+        "hash": "OOUNiybLke2vAD_j6VUMYK8KcA5E"
+    },
+    "secret": "BigSecret"
+}
