@@ -1,3 +1,4 @@
+from fakel.telegram import bot
 from fakel import app
 from flask import Response
 
@@ -18,6 +19,12 @@ async def confirmation(data : dict) -> Response:
         return Response("Failed")
     return Response(app.config.get("VK_CONFIRMATION", "None"))
 
-def wall_post_new(data : dict) -> Response:
-
-    return Response()
+async def wall_post_new(data : dict) -> Response:
+    try:
+        text = data["object"]["text"]
+        chat = "@{}".format(app.config.get("TG_CHANNEL_NAME"))
+        await bot.send_message(chat_id=chat, text=text)
+    except KeyError as e:
+        app.logger.warn("%s" % e)
+        return Response("Failed")
+    return Response("ok")
