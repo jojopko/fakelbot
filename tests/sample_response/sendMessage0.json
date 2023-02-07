@@ -1,0 +1,20 @@
+{
+    "ok": true,
+    "result": {
+        "message_id": 17,
+        "sender_chat": {
+            "id": -1001897210791,
+            "title": "TestChanell",
+            "username": "test_channel_jjpk",
+            "type": "channel"
+        },
+        "chat": {
+            "id": -1001897210791,
+            "title": "TestChanell",
+            "username": "test_channel_jjpk",
+            "type": "channel"
+        },
+        "date": 1675701177,
+        "text": "test"
+    }
+}
