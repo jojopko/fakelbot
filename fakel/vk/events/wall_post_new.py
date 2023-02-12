@@ -10,8 +10,7 @@ async def wall_post_new(data : dict) -> Response:
     try:
         text = data["object"]["text"]
         images = extract_image_urls(data["object"]["attachments"])
-        message = images[0] + text # FIXME: потенциальная ошибка
-        print(message)
+        message = get_one_image(images) + text # FIXME: потенциальная ошибка
         chat = "@{}".format(app.config.get("TG_CHANNEL_NAME"))
         await bot.send_message(chat_id=chat, text=message, parse_mode="html")
     except KeyError as e:
@@ -27,6 +26,12 @@ async def wall_post_new(data : dict) -> Response:
         app.logger.warn("%s" % e)
         return Response("Failed")
     return Response("ok")
+
+def get_one_image(images: list) -> str:
+    if len(images):
+        return images[0]
+    else:
+        return ""
 
 def extract_image_urls(attachments : list) -> list:
     """Получение фото, стилизованных под html ссылки"""
