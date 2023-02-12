@@ -6,10 +6,11 @@ from aiogram.utils.exceptions import *
 
 
 async def wall_post_new(data : dict) -> Response:
+    """Обработка событий для добавления новой записи в группе вк"""
     try:
         text = data["object"]["text"]
         images = extract_image_urls(data["object"]["attachments"])
-        message = images + text # FIXME: потенциальная ошибка
+        message = images[0] + text # FIXME: потенциальная ошибка
         print(message)
         chat = "@{}".format(app.config.get("TG_CHANNEL_NAME"))
         await bot.send_message(chat_id=chat, text=message, parse_mode="html")
@@ -28,6 +29,7 @@ async def wall_post_new(data : dict) -> Response:
     return Response("ok")
 
 def extract_image_urls(attachments : list) -> list:
+    """Получение фото, стилизованных под html ссылки"""
     try:
         img_html = []
         image_urls = get_urls(get_images(attachments))
@@ -39,6 +41,7 @@ def extract_image_urls(attachments : list) -> list:
     return img_html
 
 def get_images(attachments : list) -> list:
+    """Получение объектов фото"""
     try:
         image_objs = [e for e in attachments if e["type"] == "photo"]
     except KeyError as e:
@@ -47,6 +50,7 @@ def get_images(attachments : list) -> list:
         return image_objs
 
 def get_urls(images : list) -> list:
+    """Выделение ссылок на фото в макс. расширении"""
     try:
         urls = []
         for e in images:

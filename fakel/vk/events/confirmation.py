@@ -3,6 +3,7 @@ from fakel import app
 
 
 async def confirmation(data : dict) -> Response:
+    """Подтверждение сервера для vk callback api"""
     try:
         if data["group_id"] != int(app.config.get("VK_GROUP_ID", "None")):
             app.logger.warning("Wrong group_id - \"%s\"" % data["group_id"])
