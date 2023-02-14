@@ -18,3 +18,6 @@ curl -X POST localhost:5000/vk \
 curl -X POST localhost:5000/vk \
     --data-binary "@tests/sample_requests/wall_post_new_data/text_with_one_image.json" \
     -H "Content-type: application/json"
+curl -X POST localhost:5000/vk \
+    --data-binary "@tests/sample_requests/wall_post_new_data/repost.json" \
+    -H "Content-type: application/json"
