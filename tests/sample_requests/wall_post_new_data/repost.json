@@ -1,0 +1,118 @@
+{
+    "group_id": 217991594,
+    "type": "wall_post_new",
+    "event_id": "aacd51efad2bab67cb98e2c4ecaddfa5814aa35a",
+    "v": "5.131",
+    "object": {
+        "id": 70,
+        "from_id": -217991594,
+        "owner_id": -217991594,
+        "date": 1676395223,
+        "marked_as_ads": 0,
+        "copy_history": [
+            {
+                "compact_attachments_before_cut": 0,
+                "attachments": [
+                    {
+                        "type": "photo",
+                        "photo": {
+                            "album_id": -7,
+                            "date": 1676296318,
+                            "id": 457285573,
+                            "owner_id": -166774454,
+                            "access_key": "649b1f18f4166e6db7",
+                            "post_id": 517102,
+                            "sizes": [
+                                {
+                                    "height": 50,
+                                    "type": "s",
+                                    "width": 75,
+                                    "url": "https://sun1-21.userapi.com/impg/EZuhwF8CDkHiKVMXhhB897FCgAm-MVJ4FSpc2Q/wJ1VJ84A3Tk.jpg?size=75x50&quality=95&sign=4c249c215ae4007a37a50e418df23b8a&c_uniq_tag=GQAg1JeAIxaMq04BV9T-b2stZyHD74yIQSZtQdgaAD4&type=album"
+                                },
+                                {
+                                    "height": 87,
+                                    "type": "m",
+                                    "width": 130,
+                                    "url": "https://sun1-21.userapi.com/impg/EZuhwF8CDkHiKVMXhhB897FCgAm-MVJ4FSpc2Q/wJ1VJ84A3Tk.jpg?size=130x87&quality=95&sign=e74a24ccc2c6aaeb5d884f09d19efdbc&c_uniq_tag=Aona83-Q7pDUbNTmZWMoxIzDkQIdj6ykvhK6tJaBJ_U&type=album"
+                                },
+                                {
+                                    "height": 403,
+                                    "type": "x",
+                                    "width": 604,
+                                    "url": "https://sun1-21.userapi.com/impg/EZuhwF8CDkHiKVMXhhB897FCgAm-MVJ4FSpc2Q/wJ1VJ84A3Tk.jpg?size=604x403&quality=95&sign=23df27c14d86c7b74a7f42b1f7a426ad&c_uniq_tag=zj7EZBlh6NXe7tGndwxfOb9HCYuNSt_1eE-EBEzO-XA&type=album"
+                                },
+                                {
+                                    "height": 538,
+                                    "type": "y",
+                                    "width": 807,
+                                    "url": "https://sun1-21.userapi.com/impg/EZuhwF8CDkHiKVMXhhB897FCgAm-MVJ4FSpc2Q/wJ1VJ84A3Tk.jpg?size=807x538&quality=95&sign=43b14b91a6a17cd7e9adb8dbbdaf2f6d&c_uniq_tag=Xloyr2ZzV5wKbdunQx5jVrieb6FIrjeNHbZkPl9msTg&type=album"
+                                },
+                                {
+                                    "height": 800,
+                                    "type": "z",
+                                    "width": 1200,
+                                    "url": "https://sun1-21.userapi.com/impg/EZuhwF8CDkHiKVMXhhB897FCgAm-MVJ4FSpc2Q/wJ1VJ84A3Tk.jpg?size=1200x800&quality=95&sign=bd5de60c57b2c232eade6a4a4c8d9319&c_uniq_tag=OX5KpKNvnc0nTo7RHQ3gxArJn5A_PXdYLhqrUAEzbh0&type=album"
+                                },
+                                {
+                                    "height": 87,
+                                    "type": "o",
+                                    "width": 130,
+                                    "url": "https://sun1-21.userapi.com/impg/EZuhwF8CDkHiKVMXhhB897FCgAm-MVJ4FSpc2Q/wJ1VJ84A3Tk.jpg?size=130x87&quality=95&sign=e74a24ccc2c6aaeb5d884f09d19efdbc&c_uniq_tag=Aona83-Q7pDUbNTmZWMoxIzDkQIdj6ykvhK6tJaBJ_U&type=album"
+                                },
+                                {
+                                    "height": 133,
+                                    "type": "p",
+                                    "width": 200,
+                                    "url": "https://sun1-21.userapi.com/impg/EZuhwF8CDkHiKVMXhhB897FCgAm-MVJ4FSpc2Q/wJ1VJ84A3Tk.jpg?size=200x133&quality=95&sign=211b0c112a42720ca1a24a033bc1f3d8&c_uniq_tag=xMpGOLYJsjoyPhEEf2sWqzHXnmWw1Py5wqZBba-uaIA&type=album"
+                                },
+                                {
+                                    "height": 213,
+                                    "type": "q",
+                                    "width": 320,
+                                    "url": "https://sun1-21.userapi.com/impg/EZuhwF8CDkHiKVMXhhB897FCgAm-MVJ4FSpc2Q/wJ1VJ84A3Tk.jpg?size=320x213&quality=95&sign=f9eb57817277e43020b0c15759b96775&c_uniq_tag=Fma3C2tUYgWIA1hjDDYHMmsWNpZL1Hhjx9qn1DBizyA&type=album"
+                                },
+                                {
+                                    "height": 340,
+                                    "type": "r",
+                                    "width": 510,
+                                    "url": "https://sun1-21.userapi.com/impg/EZuhwF8CDkHiKVMXhhB897FCgAm-MVJ4FSpc2Q/wJ1VJ84A3Tk.jpg?size=510x340&quality=95&sign=1ecd3245e4bdc5c943691b407f34786e&c_uniq_tag=W-2sMsokZZE3CaITyEesl0rspMmZb7Zki0eEyDUIe0U&type=album"
+                                }
+                            ],
+                            "text": "",
+                            "user_id": 100,
+                            "has_tags": false
+                        },
+                        "style": "full"
+                    }
+                ],
+                "date": 1676303953,
+                "from_id": -166774454,
+                "id": 517102,
+                "owner_id": -166774454,
+                "post_source": {
+                    "type": "vk"
+                },
+                "post_type": "post",
+                "signer_id": 695932915,
+                "text": "&#9889;\"Нас не сбивали\": пранкеры Вован и Лексус связались с инопланетянами"
+            }
+        ],
+        "can_edit": 1,
+        "created_by": 361776391,
+        "can_delete": 1,
+        "donut": {
+            "is_donut": false
+        },
+        "comments": {
+            "count": 0
+        },
+        "short_text_rate": 0.8,
+        "compact_attachments_before_cut": 0,
+        "attachments": [],
+        "is_favorite": false,
+        "post_type": "post",
+        "text": "",
+        "hash": "uM_kwRyT-iyV_4Izza8Rf71_8M17"
+    },
+    "secret": "BigSecret"
+}
