@@ -7,11 +7,11 @@ from aiogram.utils.exceptions import *
 
 async def wall_post_new(data : dict) -> Response:
     """Обработка событий для добавления новой записи в группе вк"""
-    try:
-        text = data["object"]["text"]
+    chat = "@{}".format(app.config.get("TG_CHANNEL_NAME"))
+    try: 
+        text = data["object"]["text"] # FIXME: нельзя отправить только фото
         images = extract_image_urls(data["object"]["attachments"])
-        message = get_one_image(images) + text # FIXME: потенциальная ошибка
-        chat = "@{}".format(app.config.get("TG_CHANNEL_NAME"))
+        message = get_one_image(images) + text
         await bot.send_message(chat_id=chat, text=message, parse_mode="html")
     except KeyError as e:
         app.logger.warn("%s" % e)
@@ -25,6 +25,8 @@ async def wall_post_new(data : dict) -> Response:
         # FIXME: Добавить обработку такой ситуации. Например, через Telegraph
         app.logger.warn("%s" % e)
         return Response("Failed")
+    except BadRequest as e:
+        app.logger.warn("%s" % e)
     return Response("ok")
 
 def get_one_image(images: list) -> str:
@@ -39,7 +41,6 @@ def extract_image_urls(attachments : list) -> list:
         img_html = []
         image_urls = get_urls(get_images(attachments))
         for i in image_urls:
-            print(i)
             img_html.append(f"<a href=\"{i}\">   </a>")
     except IndexError as e:
         app.logger.warn("%s" % e)
