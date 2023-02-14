@@ -1,0 +1,102 @@
+{
+    "group_id": 217991594,
+    "type": "wall_post_new",
+    "event_id": "ed0066f8f262fd1c451260f776c7968f7f1c1287",
+    "v": "5.131",
+    "object": {
+        "id": 63,
+        "from_id": -217991594,
+        "owner_id": -217991594,
+        "date": 1676271921,
+        "marked_as_ads": 0,
+        "can_edit": 1,
+        "created_by": 361776391,
+        "can_delete": 1,
+        "donut": {
+            "is_donut": false
+        },
+        "comments": {
+            "count": 0
+        },
+        "short_text_rate": 0.8,
+        "compact_attachments_before_cut": 0,
+        "attachments": [
+            {
+                "type": "photo",
+                "photo": {
+                    "album_id": -7,
+                    "date": 1676271921,
+                    "id": 457239037,
+                    "owner_id": -217991594,
+                    "access_key": "61df83d07be5ba425e",
+                    "post_id": 63,
+                    "sizes": [
+                        {
+                            "height": 75,
+                            "type": "s",
+                            "width": 66,
+                            "url": "https://sun9-47.userapi.com/impg/niOSkBxiAoaEvERtdRFYvX2mj9R0mlkGER-lzw/78mws4Hr_k0.jpg?size=66x75&quality=96&sign=3d574b8e2741882bdd831baf4381b1de&c_uniq_tag=DdhZ9Syfd22vrzbnvReVA4vOCEbOYKkVw2B_yt9dw8Y&type=album"
+                        },
+                        {
+                            "height": 130,
+                            "type": "m",
+                            "width": 114,
+                            "url": "https://sun9-47.userapi.com/impg/niOSkBxiAoaEvERtdRFYvX2mj9R0mlkGER-lzw/78mws4Hr_k0.jpg?size=114x130&quality=96&sign=98c13e98fcbdaae872ce324648532f4d&c_uniq_tag=8snVHitvHS3CWCxEsE-PUc4W0XZx1eFjLxaBIkjAjYo&type=album"
+                        },
+                        {
+                            "height": 604,
+                            "type": "x",
+                            "width": 529,
+                            "url": "https://sun9-47.userapi.com/impg/niOSkBxiAoaEvERtdRFYvX2mj9R0mlkGER-lzw/78mws4Hr_k0.jpg?size=529x604&quality=96&sign=685370619900b3ae70475648557c4914&c_uniq_tag=ib63eEc76Hvc8YZCexBHx-QsxerMccCHlrd1MT9mbXI&type=album"
+                        },
+                        {
+                            "height": 807,
+                            "type": "y",
+                            "width": 706,
+                            "url": "https://sun9-47.userapi.com/impg/niOSkBxiAoaEvERtdRFYvX2mj9R0mlkGER-lzw/78mws4Hr_k0.jpg?size=706x807&quality=96&sign=334f1d84d01b19307da989a7cc4b332a&c_uniq_tag=UEh7Nl6MJ6b3tayRRRiRNhl7gH-AdavPXmTwpie_caU&type=album"
+                        },
+                        {
+                            "height": 857,
+                            "type": "z",
+                            "width": 750,
+                            "url": "https://sun9-47.userapi.com/impg/niOSkBxiAoaEvERtdRFYvX2mj9R0mlkGER-lzw/78mws4Hr_k0.jpg?size=750x857&quality=96&sign=26b612e6967ffd8110b3f73f24554ee2&c_uniq_tag=YCGzXzXIMRgEL5x-IGFLZoVNY04CpfZTowN15wLlVSo&type=album"
+                        },
+                        {
+                            "height": 149,
+                            "type": "o",
+                            "width": 130,
+                            "url": "https://sun9-47.userapi.com/impg/niOSkBxiAoaEvERtdRFYvX2mj9R0mlkGER-lzw/78mws4Hr_k0.jpg?size=130x149&quality=96&sign=b90e63c98c9633728f826c954c8b23ff&c_uniq_tag=9Z9gpO4C7RlU6Yngrk1cO0X2HRDXXbFreHyCJYStd8I&type=album"
+                        },
+                        {
+                            "height": 229,
+                            "type": "p",
+                            "width": 200,
+                            "url": "https://sun9-47.userapi.com/impg/niOSkBxiAoaEvERtdRFYvX2mj9R0mlkGER-lzw/78mws4Hr_k0.jpg?size=200x229&quality=96&sign=8847d86b271fd6a1d64a9900cfafd9c8&c_uniq_tag=m5qMrZ_fcXccjJmrtAXJ3MLFbExrWRRGdG55TR1REX0&type=album"
+                        },
+                        {
+                            "height": 366,
+                            "type": "q",
+                            "width": 320,
+                            "url": "https://sun9-47.userapi.com/impg/niOSkBxiAoaEvERtdRFYvX2mj9R0mlkGER-lzw/78mws4Hr_k0.jpg?size=320x366&quality=96&sign=7f9a0eda606433c34fd1df204314aed1&c_uniq_tag=vcXhovjO4tQISv7Mo8X0t3S67ayeMBWlr6SKh-bQL9U&type=album"
+                        },
+                        {
+                            "height": 583,
+                            "type": "r",
+                            "width": 510,
+                            "url": "https://sun9-47.userapi.com/impg/niOSkBxiAoaEvERtdRFYvX2mj9R0mlkGER-lzw/78mws4Hr_k0.jpg?size=510x583&quality=96&sign=25543b7cc418082ce7a6e1ef60258802&c_uniq_tag=TM4w_AnhZDot0NPnYqvTarT_aR52nj0I9XjkJClokSw&type=album"
+                        }
+                    ],
+                    "text": "",
+                    "user_id": 100,
+                    "has_tags": false
+                },
+                "style": "full"
+            }
+        ],
+        "is_favorite": false,
+        "post_type": "post",
+        "text": "Досточно большой текст Досточно большой текст Досточно большой текст Досточно большой текст Досточно большой текст Досточно большой текст Досточно большой текст Досточно большой текст Досточно большой текст Досточно большой Досточно большой текст Досточно большой текст Досточно большой текст Досточно большой текст Досточно большой текст Досточно большой текст Досточно большой текст Досточно большой текст Досточно большой текст Досточно большой текст Досточно большой текст Досточно большой текст Досточно большой текст Досточно большой текст Досточно большой Досточно большой текст Досточно большой текст Досточно большой текст Досточно большой текст Досточно большой текст Досточно большой текст Досточно большой текст Досточно большой текст Досточно большой текст Досточно большой текст Досточно большой текст",
+        "hash": "lQorFr6lBuXY07XzwWFnZSHtv5ka"
+    },
+    "secret": "BigSecret"
+}
