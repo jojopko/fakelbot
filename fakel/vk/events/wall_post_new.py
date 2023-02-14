@@ -9,8 +9,8 @@ async def wall_post_new(data : dict) -> Response:
     """Обработка событий для добавления новой записи в группе вк"""
     chat = "@{}".format(app.config.get("TG_CHANNEL_NAME"))
     try: 
-        text = data["object"]["text"] # FIXME: нельзя отправить только фото
-        images = extract_image_urls(data["object"]["attachments"])
+        text = extract_text(data) # FIXME: нельзя отправить только фото
+        images = extract_image_urls(data)
         message = get_one_image(images) + text
         await bot.send_message(chat_id=chat, text=message, parse_mode="html")
     except KeyError as e:
@@ -29,14 +29,15 @@ async def wall_post_new(data : dict) -> Response:
         app.logger.warn("%s" % e)
     return Response("ok")
 
-def get_one_image(images: list) -> str:
-    if len(images):
-        return images[0]
-    else:
-        return ""
-
-def extract_image_urls(attachments : list) -> list:
+def extract_image_urls(data : dict) -> list:
     """Получение фото, стилизованных под html ссылки"""
+    post = data.get("object")
+    repost = post.get("copy_history")  # FIXME: Возможно здесь будет ошибка, если будет отправлен пустой запрос (хотя этого не должно быть)
+    if repost is None:
+        attachments = post.get("attachments")
+    else:
+        attachments = repost[0].get("attachments")
+    
     try:
         img_html = []
         image_urls = get_urls(get_images(attachments))
@@ -71,6 +72,17 @@ def get_urls(images : list) -> list:
     finally:
         return urls
 
-def extract_text(data : dict):
-    pass
+def get_one_image(images: list) -> str:
+    if len(images):
+        return images[0]
+    else:
+        return ""
 
+def extract_text(data : dict) -> str:
+    post = data.get("object")
+    repost = post.get("copy_history")  # FIXME: Возможно здесь будет ошибка, если будет отправлен пустой запрос (хотя этого не должно быть)
+    if repost is None:
+        text = post.get("text")
+    else:
+        text = repost[0].get("text")
+    return text
