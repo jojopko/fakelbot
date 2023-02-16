@@ -1,13 +1,12 @@
 from fakel import app
 from fakel.vk.types import UpdateTypes
-# from fakel.vk import events as vk
 from fakel.vk.events import *
 from flask import request, Response
 
 
-# Ловит post запросы со строны vk.com и обрабатывает их
 @app.route("/vk", methods=["POST"])
 async def vk_callback_halder():
+    """Ловит post запросы со строны vk.com и обрабатывает их"""
     vk_update : dict = request.get_json()
     try:
         if vk_update["type"] == UpdateTypes.CONFIRMATION:
