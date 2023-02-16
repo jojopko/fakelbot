@@ -3,7 +3,6 @@ from enum import Enum
 class UpdateTypes:
     CONFIRMATION = "confirmation"
     WALL_NEW_POST = "wall_post_new"
-    WALL_REPOST = "wall_repost"
 
 # https://dev.vk.com/reference/objects/photo-sizes
 # От меньшего до большего
