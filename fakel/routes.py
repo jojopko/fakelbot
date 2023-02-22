@@ -4,7 +4,7 @@ from fakel.vk.events import *
 from flask import request, Response
 
 
-@app.route("/vk", methods=["POST"])
+@app.route("/", methods=["POST"])
 async def vk_callback_halder():
     """Ловит post запросы со строны vk.com и обрабатывает их"""
     vk_update : dict = request.get_json()
