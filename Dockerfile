@@ -6,5 +6,5 @@ COPY . /webapp
 
 RUN ["pip", "install", "-r", "req.txt"]
 
-CMD ["python3", "web.py"]
+CMD ["sh", "-c", "gunicorn -w 4 -k gevent -b 127.0.0.1:${PORT} 'fakel:app'"]
 
