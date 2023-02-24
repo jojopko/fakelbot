@@ -18,3 +18,4 @@ class Configure(object):
         get_key(DOTENV_FILE, "TG_CHANNEL_NAME")
     TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN") or \
         get_key(DOTENV_FILE, "TG_BOT_TOKEN")
+    SQLALCHEMY_DATABASE_URI = "sqlite:///app.db"
