@@ -16,23 +16,22 @@ async def wall_post_new(data : dict) -> Response:
     except KeyError as e:
         app.logger.warn("%s" % e)
         return Response("Failed")
-    except IndexError as e:
-        app.logger.warn("%s" % e)
     except ChatNotFound as e:
-        app.logger.warn("%s" % e)
+        app.logger.warn("%s\nchat: \"%s\"" % (e,chat))
         return Response("Failed")
     except MessageIsTooLong as e:
         # FIXME: Добавить обработку такой ситуации. Например, через Telegraph
         app.logger.warn("%s" % e)
         return Response("Failed")
     except BadRequest as e:
-        app.logger.warn("%s" % e)
+        app.logger.warn("%s\nmessage:\"%s\"" % (e,message))
+        return Response("Failed")
     return Response("ok")
 
 def extract_image_urls(data : dict) -> list:
     """Получение фото, стилизованных под html ссылки"""
     post = data.get("object")
-    repost = post.get("copy_history")  # FIXME: Возможно здесь будет ошибка, если будет отправлен пустой запрос (хотя этого не должно быть)
+    repost = post.get("copy_history")
     if repost is None:
         attachments = post.get("attachments")
     else:
@@ -73,14 +72,13 @@ def get_urls(images : list) -> list:
         return urls
 
 def get_one_image(images: list) -> str:
-    if len(images):
-        return images[0]
-    else:
-        return ""
+    """Вернуть первое фото"""
+    return images[0] if len(images) else ""
 
 def extract_text(data : dict) -> str:
+    """Извлечь текст поста"""
     post = data.get("object")
-    repost = post.get("copy_history")  # FIXME: Возможно здесь будет ошибка, если будет отправлен пустой запрос (хотя этого не должно быть)
+    repost = post.get("copy_history")
     if repost is None:
         text = post.get("text")
     else:
