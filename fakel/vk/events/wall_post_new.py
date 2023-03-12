@@ -18,14 +18,11 @@ async def wall_post_new(data : dict) -> Response:
         return Response("Failed")
     except ChatNotFound as e:
         app.logger.warn("%s\nchat: \"%s\"" % (e,chat))
-        return Response("Failed")
     except MessageIsTooLong as e:
         # FIXME: Добавить обработку такой ситуации. Например, через Telegraph
         app.logger.warn("%s" % e)
-        return Response("Failed")
     except BadRequest as e:
         app.logger.warn("%s\nmessage:\"%s\"" % (e,message))
-        return Response("Failed")
     return Response("ok")
 
 def extract_image_urls(data : dict) -> list:
