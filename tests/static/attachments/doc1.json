@@ -1,0 +1,52 @@
+{
+    "type": "doc",
+    "doc": {
+        "id": 577328314,
+        "owner_id": 361776391,
+        "title": "Камикадзе смотрит",
+        "size": 3462092,
+        "ext": "gif",
+        "date": 1607327284,
+        "type": 3,
+        "url": "https://vk.com/doc361776391_577328314?hash=B8oFjF7NiizYtGzWS4VXoeuK8rmJSRZZzXox9MxJMo8&dl=GM3DCNZXGYZTSMI:1678623553:Z7pZg22f5HstDjpD3fjoSB91lNBTl0CBEy5OstqKG9T&api=1&no_preview=1",
+        "preview": {
+            "photo": {
+                "sizes": [
+                    {
+                        "src": "https://sun9-67.userapi.com/c237031/u589142809/d16/-3/m_7f95f647b0.jpg",
+                        "width": 130,
+                        "height": 99,
+                        "type": "m"
+                    },
+                    {
+                        "src": "https://sun9-77.userapi.com/c237031/u589142809/d16/-3/s_7f95f647b0.jpg",
+                        "width": 100,
+                        "height": 75,
+                        "type": "s"
+                    },
+                    {
+                        "src": "https://sun9-5.userapi.com/c237031/u589142809/d16/-3/o_7f95f647b0.jpg",
+                        "width": 320,
+                        "height": 242,
+                        "type": "o"
+                    },
+                    {
+                        "src": "https://sun9-73.userapi.com/c237031/u589142809/d16/-3/x_7f95f647b0.jpg",
+                        "width": 320,
+                        "height": 242,
+                        "type": "x"
+                    }
+                ]
+            },
+            "video": {
+                "src": "https://vk.com/doc361776391_577328314?hash=B8oFjF7NiizYtGzWS4VXoeuK8rmJSRZZzXox9MxJMo8&dl=GM3DCNZXGYZTSMI:1678623553:Z7pZg22f5HstDjpD3fjoSB91lNBTl0CBEy5OstqKG9T&api=1&mp4=1",
+                "width": 320,
+                "height": 242,
+                "file_size": 59731
+            }
+        },
+        "is_unsafe": 0,
+        "access_key": "PYrXpuJlx0JJHCYWlBpGcZBWaIvDdDTN1FzBPczToHH"
+    },
+    "style": "full"
+}

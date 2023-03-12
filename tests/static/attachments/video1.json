@@ -1,0 +1,95 @@
+{
+    "type": "video",
+    "video": {
+        "access_key": "cf8152458e208c31e7",
+        "can_comment": 1,
+        "can_like": 1,
+        "can_repost": 1,
+        "can_subscribe": 1,
+        "can_add_to_faves": 1,
+        "can_add": 1,
+        "comments": 5,
+        "date": 1638728201,
+        "description": "обидно;(",
+        "duration": 7,
+        "image": [
+            {
+                "url": "https://i.mycdn.me/getVideoPreview?id=1932366907987&idx=9&type=39&tkn=uSHzuET5EJggCBo6cB4aNOlfTGU&fn=vid_s",
+                "width": 130,
+                "height": 96,
+                "with_padding": 1
+            },
+            {
+                "url": "https://i.mycdn.me/getVideoPreview?id=1932366907987&idx=9&type=39&tkn=uSHzuET5EJggCBo6cB4aNOlfTGU&fn=vid_m",
+                "width": 160,
+                "height": 120,
+                "with_padding": 1
+            },
+            {
+                "url": "https://i.mycdn.me/getVideoPreview?id=1932366907987&idx=9&type=39&tkn=uSHzuET5EJggCBo6cB4aNOlfTGU&fn=vid_l",
+                "width": 320,
+                "height": 240,
+                "with_padding": 1
+            },
+            {
+                "url": "https://i.mycdn.me/getVideoPreview?id=1932366907987&idx=9&type=39&tkn=uSHzuET5EJggCBo6cB4aNOlfTGU&fn=vid_x",
+                "width": 800,
+                "height": 450,
+                "with_padding": 1
+            },
+            {
+                "url": "https://i.mycdn.me/getVideoPreview?id=1932366907987&idx=9&type=39&tkn=uSHzuET5EJggCBo6cB4aNOlfTGU&fn=vid_w",
+                "width": 1280,
+                "height": 709
+            },
+            {
+                "url": "https://i.mycdn.me/getVideoPreview?id=1932366907987&idx=9&type=39&tkn=uSHzuET5EJggCBo6cB4aNOlfTGU&fn=vid_t",
+                "width": 320,
+                "height": 177
+            },
+            {
+                "url": "https://i.mycdn.me/getVideoPreview?id=1932366907987&idx=9&type=39&tkn=uSHzuET5EJggCBo6cB4aNOlfTGU&fn=vid_u",
+                "width": 720,
+                "height": 399
+            }
+        ],
+        "first_frame": [
+            {
+                "url": "https://i.mycdn.me/getVideoPreview?id=1932366907987&idx=0&type=39&tkn=WQLbcg8ofSc6NeTY_e_n871qcSY&fn=vid_f",
+                "width": 720,
+                "height": 399
+            },
+            {
+                "url": "https://i.mycdn.me/getVideoPreview?id=1932366907987&idx=0&type=39&tkn=WQLbcg8ofSc6NeTY_e_n871qcSY&fn=vid_md",
+                "width": 480,
+                "height": 266
+            },
+            {
+                "url": "https://i.mycdn.me/getVideoPreview?id=1932366907987&idx=0&type=39&tkn=WQLbcg8ofSc6NeTY_e_n871qcSY&fn=vid_d",
+                "width": 240,
+                "height": 133
+            },
+            {
+                "url": "https://i.mycdn.me/getVideoPreview?id=1932366907987&idx=0&type=39&tkn=WQLbcg8ofSc6NeTY_e_n871qcSY&fn=vid_sm",
+                "width": 128,
+                "height": 71
+            },
+            {
+                "url": "https://i.mycdn.me/getVideoPreview?id=1932366907987&idx=0&type=39&tkn=WQLbcg8ofSc6NeTY_e_n871qcSY&fn=vid_w",
+                "width": 1280,
+                "height": 709
+            }
+        ],
+        "width": 426,
+        "height": 236,
+        "id": 456241363,
+        "owner_id": 265199187,
+        "title": "свиньи буллят гоблина",
+        "is_favorite": false,
+        "track_code": "video_5dc2cf28mXsVaRIuC0R3v93TvcEdH4jWYO3P1VthoF8yuJ_E_N-oWRBmHi4HRHLY07yJ9CstvOdT2_zSLg_LMV3P8cQ",
+        "type": "video",
+        "views": 37323,
+        "can_dislike": 1
+    },
+    "style": "full"
+}
