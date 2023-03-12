@@ -1,0 +1,32 @@
+{
+    "group_id": 0,
+    "type": "wall_post_new",
+    "event_id": "6c07a2d91045eaba6050731e2cac5eeac61f48da",
+    "v": "5.131",
+    "object": {
+        "can_edit": 1,
+        "created_by": 361776391,
+        "can_delete": 1,
+        "donut": {
+            "is_donut": false
+        },
+        "comments": {
+            "count": 0
+        },
+        "marked_as_ads": 0,
+        "zoom_text": true,
+        "short_text_rate": 0.8,
+        "compact_attachments_before_cut": 0,
+        "hash": "gcRSQ1m_FGpnaDvAAP2iDQrX4kYE",
+        "type": "post",
+        "attachments": [],
+        "date": 1678614715,
+        "from_id": -217991594,
+        "id": 86,
+        "is_favorite": false,
+        "owner_id": -217991594,
+        "post_type": "post",
+        "text": ""
+    },
+    "secret": ""
+}
